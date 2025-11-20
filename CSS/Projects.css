@@ -2,10 +2,13 @@
       display: flex-start;
       width: 600px;
       height: 600px;
-      background-color: rgb(106, 0, 89);
+       background-image: url("../Images/BGS/Patternthing1.gif");
+        background-repeat: repeat;       
+        background-position: center;    
+        background-size: 100px;
       overflow: hidden;
       overflow-y: auto;
-      border: 10px outset rgb(143, 17, 136);
+      border: 10px outset rgb(156, 215, 218);
       position: relative;
       z-index: 2;
       
@@ -30,8 +33,9 @@
     }
     p1 {
       font-size: 15px;
-      color: rgb(255, 191, 252);
+      color: rgb(156, 215, 218);
       text-align: center;
+      
     }
     p2 {
       font-size: 20px;
@@ -123,6 +127,9 @@
 a {
   color: rgb(255, 255, 255);
   
+}
+.outlined-text {
+  -webkit-text-stroke: 2px rgb(33, 185, 255); 
 }
 
 /* Hover state */
