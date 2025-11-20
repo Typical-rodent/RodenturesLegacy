@@ -8,9 +8,8 @@
         background-size: 100px;
       overflow: hidden;
       overflow-y: auto;
-      border: 10px outset rgb(156, 215, 218);
-      position: relative;
-      z-index: 2;
+      border: 10px outset rgb(137, 0, 205);
+    
       
     }
     body {
@@ -24,23 +23,24 @@
         background-position: center;    
         background-size: 100px;          
         font-family: "Comic Sans MS";
-        z-index: -2;
     }
     h1 {
       font-size: 35px;
-      color: rgb(255, 191, 252);
+      color: rgb(137, 0, 205);
       text-align: center;
+      text-shadow: 2px 4px black;
     }
     p1 {
       font-size: 15px;
-      color: rgb(156, 215, 218);
+      color: rgb(239, 142, 231);
       text-align: center;
-      
+      text-shadow: 2px 2px black;
     }
     p2 {
       font-size: 20px;
       color: rgb(255, 191, 252);
       text-align: center;
+      
     }
     h4 {
       font-size: 15px;
@@ -49,7 +49,7 @@
     }
     li {
       font-size: 15px;
-      color: rgb(255, 191, 252);
+      color: rgb(71, 12, 68);
       
     }
     .bimg{
@@ -73,20 +73,27 @@
     }
     .center {
       text-align: center;
+      align-items: center;
+      justify-content: center;
     }
     .sidebar {
       width: 150px;
       height: 600px;
-      background-color: rgb(130, 3, 109);
+      background-image: url("../Images/BGS/retrowater.gif");
+        background-repeat: repeat;       
+        background-position: center;    
+        background-size: 100px;        
       color: rgb(0, 0, 0);
       display: flex;
       flex-direction: column;
-        border: 10px outset rgb(143, 17, 136);
+        border: 10px outset rgb(137, 0, 205);
         z-index: 2;
     }
     .header {
-       border: 10px outset rgb(127, 14, 122);
-        background-color: rgb(141, 41, 131);
+        border: 10px outset rgb(137, 0, 205);
+        background-image: url("../Images/BGS/cyanwater.gif");
+        background-repeat: repeat;       
+        background-position: center;
         text-align: center;
         color:orange;
         height:100px;
@@ -125,21 +132,21 @@
 }
 /* Default link color */
 a {
-  color: rgb(255, 255, 255);
+  color: rgb(26, 73, 128);
   
 }
 .outlined-text {
-  -webkit-text-stroke: 2px rgb(33, 185, 255); 
+  -webkit-text-stroke: 2px rgb(63, 70, 74); 
 }
 
 /* Hover state */
 a:hover {
-  color: rgb(225, 39, 254);
+  color: rgb(2, 78, 255);
   text-decoration: underline; 
 }
 /* Visited link color */
 a:visited {
-  color: rgb(188, 188, 188);
+  color: rgb(5, 102, 151);
 }
 
 /* Active link color */
