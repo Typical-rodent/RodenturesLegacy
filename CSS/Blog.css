@@ -14,7 +14,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url("../Images/BGS/PurpleGliter.gif");
+        background-image: url("../Images/BGS/Blackroses.gif");
         background-repeat: repeat;       
         background-position: center;    
         background-size: 200px;          
@@ -31,8 +31,8 @@
       text-align: center;
     }
     p2 {
-      font-size: 20px;
-      color: rgb(255, 191, 252);
+      font-size: 12px;
+      color: rgba(255, 191, 252, 0.527);
       text-align: center;
     }
     h4 {
@@ -46,6 +46,15 @@
       
     }
     .bimg{
+          display: inline-block;
+          margin: 10px;
+          border: 10px outset rgb(200, 64, 193);
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+
+        }
+        bvid{
           display: inline-block;
           margin: 10px;
           border: 10px outset rgb(200, 64, 193);
@@ -103,6 +112,10 @@
     }
     img{
       display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    video{
       margin-left: auto;
       margin-right: auto;
     }
