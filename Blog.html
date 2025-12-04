@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+    <link rel="stylesheet" type="text/css" href="CSS/Blog.css">
+    <link rel="icon" type="image/x-icon" href="Images/Bulb.ico">
+    <script src="CSS/scripts.js"></script>
+    <title>Me website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html> 
+      <div class="sidebar">
+        <img src="Images/Index.gif" alt="Whoops" style="width:150px;height:75px;" class="Sidimg">  
+    <ul>
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="Blog.html">My Blog</a></li>  
+      <li><a href="Projects.html">Projects</a></li>      
+      <li><a href="ArchivePage.html">Archives</a></li>
+      <li><a href="NikoShrine.html">Niko Shrine</a></li>
+      <li><a href="Extra.html">Extra stuff</a></li>        
+    </ul>
+        <figure id="Sidimg"class ="center">
+      <img src="Images/tripwire.webp" alt="Whoops" style="width:150px;height:75px;" class="Sidimg" onclick="resizeImage(this)">  
+    </figure>
+</div>
+  <div class="container">
+  <div class="header">
+  <img width="301px"  src="https://images.cooltext.com/5712102.gif" alt=""class="center">
+  </div>
+  <div class="TopBar">
+    <button class="swapbutton" data-content="Test">12/3/25 testing</button>
+    <button class="swapbutton" data-content="Actfirst">12/3/25 Actual First blog</button>
+  </div>
+  <div id="bcontainer" class="Bcontainer">
+
+  </div>
+  
+</div>
+<script>
+  const contentMap = {
+      Test: `
+        <h1>Hello dear worl</h1>
+
+        <p1>i havent even finished setting this up yet barley got the basic formatting and (stolen) javascript for this pretty cool tho rgithttt??</p1>
+        <br>
+        <p1>-ps whats below this is what the copilot autofill thought i talked like 🥹</p1>
+        <br>
+        <h2>My first blog post!!! :3c</h2>
+        <p1>im so excited to start blogging here omg this is gonna be so fun!!! :3c</p1>
+        <p1>This is my first blog post! Im so excited to start sharing my thoughts and experiences with all of you. Stay tuned for more updates!</p1>
+        <p1>Feel free to leave comments and let me know what topics you'd like me to cover in future posts. Thank you for joining me on this journey!</p1>
+        <p1>Until next time, take care and stay awesome!</p1>
+        <p1>- Rodent</p1>
+        <p1>PS: Here's a cute picture of a rat to brighten your day!</p1>
+        <img src="Images/CuteRat.jpg" width="200px" class="bimg" alt="Cute Rat">
+        <p1>Aww, isn't it adorable?</p1>
+        <p1>Stay tuned for more exciting content coming your way soon!</p1>
+        <p1>Bye for now!</p1>
+        <p1>- Rodent</p1>
+        <p1>PPS: Don't forget to check out my other pages on this website for more fun stuff!</p1>
+        <p1>See you later!</p1>
+        <p1>- Rodent</p1>
+        <p1>PPPS: If you have any questions or suggestions, feel free to reach out to me through the contact page!</p1>
+        <p1>I'd love to hear from you!</p1>
+        <p1>- Rodent</p1>
+        <p1>PPPPS: Thanks for reading my first blog post! Stay tuned for more exciting updates!</p1>
+        <p1>Take care!</p1>
+        <p1>- Rodent</p1>
+        <br>
+        <br>
+        <p2>there are not fucking coments what, its not even mentioned anywhere in the code bro!??!?!, thats a good fucking idea tho -- actual not ai rodent</p2>
+
+
+    `,
+    Actfirst: `
+      <h1>da intro</h1>
+      <br>
+      <p1> ok os like i mainly wanna do sorta life updates therought this and just complain and whine, also project updates that too i do have a few things to show you actually!!!</p1>
+      <br>
+      <h2>Test Roblox animation</h2>
+      <video width="320" height="240" controls>
+       <source src="Images/Assets/Videos/Finaltestanimation.mp4" type="video/mp4">
+      </video>
+      <p2>iswear bro illfix the formating later</p2>
+      <br>
+      <p1> i got insptired to make this from like that oneee fucking "we are going back in time to the first thanks giving </p1>
+      <p1> to get turkey off the menu" roblox animation thats like fuckinn #retro and i wanted to do something in a similar style</p1>
+      <p1> i was also tesitng new r6 rigs and face changing</p1>
+      <br>
+      <p1>ALSOOOOOOO i sotry boreded the animatin, because i need to start doing that eveyr single time ive animated something NO story bored i just raw dogged it and if eel like u can REALLY tell by the shit pacing in all my previous work <p1>
+       <video width="320" height="240" controls>
+       <source src="Images/Assets/Videos/Storybored.mp4" type="video/mp4">
+      </video>
+      <br>
+      <p2>heres that</p2>
+      <br>
+      <p1>when it comes to life right now, SUCKS per usual, in particular today ive started to notice how much my sister is in a really bad mood, CONSTANTLY, i got screamed at for not closing the door all the way (we all sleep int he same room btw) and was just kidna an asshole for like no reason. I feel like something is gen up with her id just kinda wish she wouldnt lash out at me but whatever brahhh. </p1>
+      <br>
+      <p1>anyway end of blog for now</p1>  
+      <br>
+      <h2> ai autofill funnies </h2>
+      <p1>while i was writing the ai did like the autofill thing and spat this shit out so here u go </p1>
+      <br>
+       <h2>life update 1</h2>
+      <p1> so like im in 11th grade now, its pretty tuff ngl but im managing, i have a lot of work but its not too bad, im just</h1>
+      <p1> glad to be back in school and seeing my friends again, even if its just online for now</p1>
+      <br>
+      <h2>project update 1</h2>
+      <p1> so like im working on a few projects right now, one of them is a roblox game that im super excited about, its gonna be a platformer with some rpg elements, im still in the early stages of development but i cant wait to share more about it soon!!!</p1>
+      <br>
+<h2>Life update</h2>
+      <p1>so like school is going ok i guess, im just kinda stressed about a few things but nothing too bad, i did get a new rat tho shes super cute ill show you a pic</p1>
+      <br>
+      <h2>life update</h2>
+      <p1> so like im in the process of getting my license rn, i have like 2 more driving lessons and then i can take the test :3c</p1>
+       <p1> im kinda nervous but also excited, its gonna be so nice to be able to drive around and not have to rely on my parents all the time</p1>
+       <br>
+       <p1>im jelious of whats going on in HERRR life bro she has pet rats SHE IS ABLE TO GET DRIVING LESSONS SHE HAS FUCKING FRIENDS IN SCHOOL SHE LIKES WHATT IM SO FUCING JELOOIUSSS!??!?--- actual rodent</p1>    
+    `,
+};
+
+document.querySelectorAll(".swapbutton").forEach(btn => {
+    btn.addEventListener("click", () => {
+        const key = btn.dataset.content;
+        console.log("Clicked", key);
+        document.getElementById("bcontainer").innerHTML = contentMap[key];
+    });
+});
+</script>
+</html>

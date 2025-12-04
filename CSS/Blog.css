@@ -3,7 +3,7 @@
       width: 600px;
       height: 600px;
       background-color: rgb(106, 0, 89);
-      overflow: hidden;
+         overflow: hidden;
       overflow-y: auto;
       border: 10px outset rgb(143, 17, 136);
       
@@ -81,14 +81,25 @@
         background-color: rgb(141, 41, 131);
         text-align: center;
         color:orange;
-        height:100px;
+        height:75px;
     }
     .TopBar {
-        border: 10px outset rgb(127, 14, 122);
-        background-color: rgb(141, 41, 131);
-        text-align: center;
-        height:50px;
-        overflow-x: auto;
+    display: flex;  
+    border: 10px outset rgb(127, 14, 122);
+    background-color: rgb(141, 41, 131);
+    text-align: start;
+    height: 50px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+     .Bcontainer {
+      width: auto;
+      height: 417px;
+      overflow: hidden;
+      overflow-y: auto;
+      background-color: rgb(106, 0, 89);
+      border: 10px outset rgb(103, 17, 143);
+      
     }
     img{
       display: block;
@@ -142,3 +153,22 @@ a:active {
           margin-left: auto;
           margin-right: auto;
       }
+.swapbutton {
+  display: inline-block;
+  margin-right: 6px;   /* optional spacing */
+  background-color: rgb(16, 34, 136);
+  border: 5px outset rgb(103, 17, 143);
+  color: rgb(167, 90, 90);
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.swapbutton:hover {
+  cursor: pointer;
+  font-size: 17px;
+}
+.swapbutton:active {
+  cursor: pointer;
+  font-size: 19px;
+}
