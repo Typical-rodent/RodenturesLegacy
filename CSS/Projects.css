@@ -2,13 +2,10 @@
       display: flex-start;
       width: 600px;
       height: 600px;
-       background-image: url("../Images/BGS/Patternthing1.gif");
-        background-repeat: repeat;       
-        background-position: center;    
-        background-size: 100px;
+      background-color: rgb(162, 76, 188);
       overflow: hidden;
       overflow-y: auto;
-      border: 10px outset rgb(137, 0, 205);
+      border: 10px outset rgb(217, 133, 213);
     
       
     }
@@ -18,7 +15,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url("../Images/BGS/ShapesnStuff.gif");
+        background-image: url("../Images/BGS/bubbles.gif");
         background-repeat: repeat;       
         background-position: center;    
         background-size: 200px;          
@@ -79,21 +76,16 @@
     .sidebar {
       width: 150px;
       height: 600px;
-      background-image: url("../Images/BGS/retrowater.gif");
-        background-repeat: repeat;       
-        background-position: center;    
-        background-size: 100px;        
+      background-color: rgb(162, 76, 188);      
       color: rgb(0, 0, 0);
       display: flex;
       flex-direction: column;
-        border: 10px outset rgb(137, 0, 205);
-        z-index: 2;
+      border: 10px outset rgb(217, 133, 213);
+      z-index: 2;
     }
     .header {
-        border: 10px outset rgb(137, 0, 205);
-        background-image: url("../Images/BGS/cyanwater.gif");
-        background-repeat: repeat;       
-        background-position: center;
+        border: 10px outset rgb(235, 145, 230);
+       background-color: rgb(162, 76, 188);
         text-align: center;
         color:orange;
         height:100px;
@@ -155,7 +147,7 @@ a:active {
 }
       #Sidimg{
           display: inline-block;
-          margin: 320px;
+          margin: 290px;
           display: block;
           align-content: center;
           margin-left: auto;
