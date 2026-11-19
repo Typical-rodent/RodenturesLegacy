@@ -1,4 +1,8 @@
 # Rodentures
+<h1>EWW EWWW OLD EWWWWWWWWWW EWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW</h1>
+yeah archive of pre neocities migration version of my personal website. might get rid of thoose blog posts cuz they get to venty
+<br>
+OG desc-<br><br>
 Rodents awesome personal website with cool stuff on it!!!!!!!!!!
 currently unfinished learning to use visual studio right now lmaooooo
 
